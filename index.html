@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutStore - Home</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/577791ff15.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+
+        <div class="topmenu">
+            <a href="#">Clique aqui e confira nossos descontos</a>
+        </div>
+
+        <div class="menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container-fluid">
+              <a id="logo" class="navbar-brand" href="index.html">FutStore</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: white;"></span>
+              </button>
+              <form class="d-flex">
+                <input class="form-control me-2" id="caixa" type="search" placeholder="Digite o que você procura..." aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Pesquisar</button>
+              </form>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color: #ffffff" aria-current="page" href="index.html">Início</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color: #ffffff" aria-current="page" href="#" style="color: #ffffff;">Novidades</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff;">
+                      Camisas de futebol
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Masculina</a></li>
+                      <li><a class="dropdown-item" href="#">Feminina</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Infantil</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff;">
+                      Camisas Retro
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Masculina</a></li>
+                      <li><a class="dropdown-item" href="#">Feminina</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Infantil</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff;">
+                      Agasalhos e conjuntos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Masculino</a></li>
+                    <li><a class="dropdown-item" href="#">Feminina</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Infantil</a></li>
+                    </ul>
+                  </li>
+                  
+
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color: #ffffff;" aria-current="page" href="#">Rastreio</a>
+                  </li>
+
+                <div class="icons">
+                    <a href=""><i class="fa-solid fa-cart-shopping" style="font-size: 20px;"></i> 0<a>
+                    <a href=""><i class="fa-solid fa-user" style="font-size: 20px;"></i><a>
+                </div>
+
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <hr>
+        </div>
+    </header>
+    
+
+    <div class="carrossel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/Banner.jpg" height="540px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/Brasil.jpg" height="540px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/ronaldinho-messi.jpg" height="540px" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="infos">
+        <div class="iconinfo"><i class="fas fa-box-open" style="font-size: 40px; margin-top: 7px; margin-right: 8px;"></i></div>
+        <p style="font-size: 16px;"><Strong>Entrega local</Strong><br>Para todo o Brasil</p>
+        <div class="iconinfo"><i class="fas fa-truck" style="font-size: 40px; margin-top: 7px; margin-right: 8px;"></i></div>
+        <p style="font-size: 16px;"><Strong>Frete Gratis</Strong><br>Mogi das Cruzes</p>
+        <div class="iconinfo"><i class="fas fa-credit-card" style="font-size: 40px; margin-top: 7px; margin-right: 8px;"></i></div>
+        <p style="font-size: 16px;"><Strong>Cartão Credito</Strong><br>Em até 12x</p>
+        <div class="iconinfo"><i class="fas fa-shield-alt" style="font-size: 40px; margin-top: 7px; margin-right: 8px;"></i></div>
+        <p style="font-size: 16px;"><Strong>Segurança</Strong><br>Sua compra segura</p>
+    </div>
+
+    <div class="categorias">
+        <h2 style="text-align: center;">Escolha por categoria</h2>
+        <hr>
+        <div class="container-categorias">
+          <div class="scrolling-wrapper">
+          <div class="iconsliga"><img src="imagens/man.png" alt=""><a href="#"><br>Premier League</a></div>
+          <div class="iconsliga"><img src="imagens/sv.png" alt=""><a href="#"><br>La Liga</a></div>
+          <div class="iconsliga"><img src="imagens/psgt.png" alt=""><a href="#"><br>Ligue 1</a></div>
+          <div class="iconsliga"><img src="imagens/trayx.png" alt=""><a href="#"><br>Serie A</a></div>
+          <div class="iconsliga"><img src="imagens/trayyy.png" alt=""><a href="#"><br>Bundesliga</a></div>
+          <div class="iconsliga"><img src="imagens/aus.png" alt=""><a href="#"><br>Outras Ligas</a></div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container-maisvendidos">
+        <h2>Mais Vendidos</h2>
+        
+        <div class="scrolling-wrapper">
+        <nav>
+        <div class="card" style="width: 16rem">
+          <img src="imagens/roupas/Vasco Frente.jpg" onmouseover="this.src='./imagens/roupas/Vasco costa.jpg'" onmouseout="this.src='./imagens/roupas/Vasco Frente.jpg'" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Vasco - Third Kit <br> (2022/23)</h5>
+            <br>
+            <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$179,00</strong></p>
+            <br>
+            <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 16rem">
+          <img src="imagens/roupas/Borussia frente.jpg" onmouseover="this.src='./imagens/roupas/Borussia costa.jpg'" onmouseout="this.src='./imagens/roupas/Borussia frente.jpg'" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Borussia Dortmund <br> All Black (2022/23)</h5>
+            <br>
+            <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$159,00</strong></p>
+            <br>
+            <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 16rem">
+          <img src="imagens/roupas/Arsenal frente.jpg" onmouseover="this.src='./imagens/roupas/Arsenal costa.jpg'" onmouseout="this.src='./imagens/roupas/Arsenal frente.jpg'" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Arsenal - Home <br> (2022/23)</h5>
+            <br>
+            <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$179,00</strong></p>
+            <br>
+            <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+          </div>
+        </div>
+
+        
+        <div class="card" style="width: 16rem">
+          <img src="imagens/roupas/Real madrid frente.jpeg" onmouseover="this.src='./imagens/roupas/Real madrid costa.jpeg'" onmouseout="this.src='./imagens/roupas/Real madrid frente.jpeg'" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Real Madrid - Home <br> (2022/23)</h5>
+            <br>
+            <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$179,00</strong></p>
+            <br>
+            <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 16rem">
+          <img src="imagens/roupas/Barcelona frente.jpeg" onmouseover="this.src='./imagens/roupas/Barcelona costa.jpeg'" onmouseout="this.src='./imagens/roupas/Barcelona frente.jpeg'" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Barcelona - Home <br> (2022/23)</h5>
+            <br>
+            <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$159,00</strong></p>
+            <br>
+            <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+          </div>
+        </div>
+      </nav>
+      </div>
+
+
+    </div>
+
+    <div class="subcategorias">
+      <div class="card" style="width: 400px">
+        <img src="imagens/brasileiro.jpg" height="400px" class="card-img-top" alt="...">
+        <div class="card-body" style="text-align: center;">
+          <h2><strong>Clubes Brasileiros</strong></h2>
+          <p>Vista as camisas do seu time de coração</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 400px">
+        <img src="imagens/internacional.png" class="card-img-top" alt="...">
+        <div class="card-body" style="text-align: center;">
+          <h2><strong>Clubes Internacionais</strong></h2>
+          <p>Vista as camisas dos clubes europeus</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 400px">
+        <img src="imagens/retro.png" height="400px" class="card-img-top" alt="...">
+        <div class="card-body" style="text-align: center;">
+          <h2><strong>Camisas Retrôs</strong></h2>
+          <p>Vista as camisas dos times que marcaram historia</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lancamentos">
+        <h2>Lançamentos</h2>
+
+        <div class="scrolling-wrapper">
+        <nav>
+          <div class="card" style="width: 16rem">
+            <img src="imagens/roupas/Intermiami frente.jpg" onmouseover="this.src='./imagens/roupas/Intermiami costa.jpeg'" onmouseout="this.src='./imagens/roupas/Intermiami frente.jpg'" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Inter Miami - Away <br> (2023/24)</h5>
+              <br>
+              <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$159,00</strong></p>
+              <br>
+              <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+            </div>
+          </div>
+  
+  
+          <div class="card" style="width: 16rem">
+            <img src="imagens/roupas/Liverpool frente.jpg" onmouseover="this.src='./imagens/roupas/Liverpool costa.jpg'" onmouseout="this.src='./imagens/roupas/Liverpool frente.jpg'" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Liverpool x Lebron <br> (2023)</h5>
+              <br>
+              <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$189,00</strong></p>
+              <br>
+              <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+            </div>
+          </div>
+  
+  
+          <div class="card" style="width: 16rem">
+            <img src="imagens/roupas/Italia frente.jpg" onmouseover="this.src='./imagens/roupas/Italia costa.jpg'" onmouseout="this.src='./imagens/roupas/Italia frente.jpg'" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Italia - Away <br> (2023/24)</h5>
+              <br>
+              <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$159,00</strong></p>
+              <br>
+              <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+            </div>
+          </div>
+  
+          
+          <div class="card" style="width: 16rem">
+            <img src="imagens/roupas/Orlandocity frente.jpg" onmouseover="this.src='./imagens/roupas/Orlandocity costa.jpeg'" onmouseout="this.src='./imagens/roupas/Orlandocity frente.jpg'" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Orlando City - Home <br> (2023/24)</h5>
+              <br>
+              <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$159,00</strong></p>
+              <br>
+              <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+            </div>
+          </div>
+
+
+          <div class="card" style="width: 16rem">
+            <img src="imagens/roupas/Milan frente.jpg" onmouseover="this.src='./imagens/roupas/Milan costa.jpeg'" onmouseout="this.src='./imagens/roupas/Milan frente.jpg'" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Milan - Fourth Kit <br> (2022/23)</h5>
+              <br>
+              <p class="card-text">A partir de <br> <strong style="font-size: 22px;">R$159,00</strong></p>
+              <br>
+              <a href="#" class="btn btn-dark" style="width: 90%;">Ver Produto</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+
+    <footer></footer>
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/577791ff15.js" crossorigin="anonymous"></script>
+</html>

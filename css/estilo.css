@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Header */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .topmenu{
+    text-align: center;
+    background-color: #f39200;
+    height: 34px;
+  }
+
+  .topmenu a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875em;
+    line-height: 34px;
+    text-decoration: none;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .menu li{
+    margin-left: 15px;
+    align-items: center;
+  }
+
+  .nav-item a{
+    color: black;
+  }
+
+  #logo{
+    font-size: 2rem;
+    color: #f39200;
+    margin-bottom: 3px;
+  }
+
+  .d-flex{
+    margin-left: 16px;
+  }
+
+  #caixa{
+    width: 250px;
+  }
+
+  /*  */
+
+  /*  */
+
+  .infos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+
+  .iconinfo{
+    margin-left: 33px;
+  }
+
+  .categorias{
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+
+  .logos{
+    display: flex;
+  }
+
+  .container-categorias{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .iconsliga{
+    text-align: center;
+    align-items: center;
+    margin-left: 35px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .iconsliga:hover{
+    transform: scale(1.1);
+  }
+
+  .iconsliga img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    /* margin-left: 35px; */
+  }
+
+  .iconsliga a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .subcategorias{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .subcategorias .card{
+    margin-inline-start: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .card:hover{
+      transform: scale(1.05);
+  }
+
+  .subcategorias .card:hover{
+      border-bottom: 1px solid gray;
+  }
+
+  .container-maisvendidos{
+    margin-top: 30px;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+
+  .container-maisvendidos .card{
+    margin-inline-start: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .container-maisvendidos nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-lancamentos{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .container-lancamentos .card{
+    margin-inline-start: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .container-lancamentos nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .icons{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    gap: 20px;
+  }
+
+  .icons a{
+    /* border: 1px solid red; */
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff
+}
+
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.scrolling-wrapper .cards {
+  flex: 0 0 auto;
+}
+
+.scrolling-wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Responsividade */
+
+@media (max-width: 650px) {
+  .carrossel img{
+    height: 240px;
+  }
+  .d-flex{
+    margin: 0;
+    width: 100%;
+  }
+  input[type=search]{
+    /* border: 3px  solid red; */
+    /* width: 80%; */
+    margin: 0;
+  }
+  .categorias{
+    justify-content: left;
+    padding: 0;
+  }
+  .iconsliga{
+    margin-left: 0;
+    justify-content: left;
+  }
+  .iconsliga img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px;
+  }
+  .infos{
+    display: none;
+  }
+  .card{
+    margin: 5px 0px;
+    margin-left: 0px;
+  }
+  .subcategorias .card{
+    margin-left: 0;
+  }
+}
